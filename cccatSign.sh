@@ -1,19 +1,19 @@
 #!/bin/bash
 
 # 注意帐号，密码替换
-curl --cookie "uid=xxx;user_email=xxx;user_pwd=xxx" https://cccat.io/user/_checkin.php
+curl --cookie "uid=xxx;user_email=xxx;user_pwd=xxx;user_auth=xxx" https://cccat.io/user/_checkin.php
 
 # 以上 无通知单用户
 # 以下 tg机器人消息通知；可多账号
 # 选择使用版本，删除其他代码
-# 🌟 uid/user_email/user_pwd 需要登录后查看网站的 Cookis，f12->Application 里查看或者使用相关插件 http://www.editthiscookie.com/
+# 🌟 uid/user_email/user_pwd/user_auth 需要登录后查看网站的 Cookis，f12->Application 里查看或者使用相关插件 http://www.editthiscookie.com/
 
 #!/bin/bash
 
 # 注意帐号，密码替换
-user1="uid=xxx;user_email=xxx;user_pwd=xxx"
-#user2="uid=xxx;user_email=xxx;user_pwd=xxx
-#user3="uid=xxx;user_email=xxx;user_pwd=xxx"
+user1="uid=xxx;user_email=xxx;user_pwd=xxx;user_auth=xxx"
+#user2="uid=xxx;user_email=xxx;user_pwd=xxx;user_auth=xxx"
+#user3="uid=xxx;user_email=xxx;user_pwd=xxx;user_auth=xxx"
 
 users=($user1)
 # users=($user1 $user2 $user3)
